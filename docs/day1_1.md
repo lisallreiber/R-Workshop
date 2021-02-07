@@ -1,11 +1,9 @@
 ## Day 1, Session 1
 
-Who: Kara
-
 Agenda
 
   * Admin & greetings
-  * Project-oriented workflow, part 1 of 2
+  * Introduction to R-Studio and R-Project oriented workflows
   
 Slides
 
