@@ -8,32 +8,32 @@ by Lisa Reiber
 
 [lisallreiber.github.io/R-Workshop/](https://lisallreiber.github.io/R-Workshop/) \<-- The One True URL that links to everything!
 
-:spiral_calendar: January 27 and 28, 2020  
-:alarm_clock: 09:00 - 17:00  
-:hotel: Golden Gate Rooms 4-5 (Lobby Level)  
+:spiral_calendar: February 11 and 12, 2021   
+:alarm_clock: 09:00 - 17:00 \| 09:00 - 13:00
+:hotel: Gather Town  
 :writing_hand: [rstd.io/conf](http://rstd.io/conf)  
-:musical_note: [Spotify playlist](https://open.spotify.com/playlist/0OuvqM69DKFK3QPbHIy2kc?si=xonCaP2RTmeOXO3YW7hxhQ)
 
 ------------------------------------------------------------------------
 
 ## Pre-work
 
-Please do the requested Git/GitHub prep in advance! Go [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for details. If you have questions, please ask on the [community.rstudio.com thread](https://community.rstudio.com/t/what-they-forgot-to-teach-you-about-r-workshop-rstudio-conf-2020/49106).
+Please do the requested Git/GitHub prep in advance! Go [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for details. If you have questions, please ask me.
+Please use your github account to set up an RStudio Cloud account as well. We will use RStudio cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.
 
 ## Schedule
 
-### Monday
+### Thursday
 
-09:00 - 10:30 [1_1: Overview / RStudio and RMarkdown](day1_1)  
+09:00 - 10:30 [1_1: Introduction / RStudio Workflows](day1_1)  
 10:30 - 11:00 Break  
-11:00 - 12:30 [1_2: R Markdown & MetaViz & GGplot2](day1_2)  
+11:00 - 12:30 [1_2: R-Markdown Intro](day1_2)  
 12:30 - 13:30 Lunch  
-13:30 - 15:00 [1_3: Git](day1_3)  
+13:30 - 15:00 [1_3: Meta-Viz with ggplot2](day1_3)  
 15:00 - 15:30 Break  
-15:30 - 17:00 [1_4: GitHub Pages](day1_4)
+15:30 - 17:00 [1_4: R-Markdown: website features](day1_4)
 
-### Tuesday
-09:00 - 10:30 [2_1: Your own Project](day2_1)  
+### Friday
+09:00 - 10:30 [2_1: Git + GithubPages](day2_1)  
 10:30 - 11:00 Break  
 11:00 - 12:30 [2_2: Deploying it to GH Pages](day2_2)  
 12:30 - 13:00 [2_3: Wrap-up](day2_3)  
@@ -42,6 +42,11 @@ Please do the requested Git/GitHub prep in advance! Go [here](https://happygitwi
 This is a 1.5-day hands on workshop designed for beginner and experiences R and RStudio users who want to (re)design their R lifestyle. You'll learn holistic workflows that address the most common sources of friction in data analysis. We'll work on project-oriented workflows, version control for data science (Git/GitHub!), and how to plan for collaboration, communication, and iteration (incl. RMarkdown).
 
 In terms of your R skills, expect to come away with new knowledge of your R installation, how to maintain it, robust strategies for working with the file system, debugging tools, and ways to use the purrr package for repetitive tasks.
+
+## Mission
+
+During the workshop we will visit the different building blocks from which reproducable research reports like [this](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html) are made of. If everything goes well, everyone will succeed in producing a website with visualization ov meta infomation via their own Github account.
+
 
 ## Is this course for me?
 
@@ -74,7 +79,7 @@ The tidyverse is not an explicit focus of the course (other than the purrr segme
 
 ## Feedback and communication
 
-<https://gitter.im/what-they-forgot/wtf-2020-rsc> is our chat room. Good for live chat during the workshop. Feel free to ignore if you are overstimulated already.
+<https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop> is our virtual meeting room at Gather.town. We will use the workshop area for all-group input sessions and the group-table areas for working in small groups. Don't worry if you are not familiar with Gather.town yet, we will explore it a together at the beginning of the workshop.
 
 [Issues](https://github.com/lisallreiber/R-Workshop/issues) \<-- all are encouraged to open issues as we go. This is actually tremendously helpful to me! Examples of issue-worthy thoughts:
 
@@ -85,16 +90,44 @@ The tidyverse is not an explicit focus of the course (other than the purrr segme
 
 ## Resources
 
-Written versions of content are under open development here:
+Here you can find a list of resources specifically to the topics we covered in the workshop. 
 
--   [What They Forgot to Teach You About R](https://rstats.wtf) (bookdown site)
--   [Happy Git and GitHub for the useR](https://happygitwithr.com) (bookdown site)
--   [purrr tutorial](https://jennybc.github.io/purrr-tutorial/)
+##### R & RStudio  
+- [Cute Introduction to R](https://rforcats.net/) (blog post ~ 7min)
+- [WTF - What the forgot to teach you about R](https://rstats.wtf/) (bookdown site with lots of R-hacks)
+
+##### RMarkdown  
+
+- [Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+- [Syntax Explorer](https://daringfireball.net/projects/markdown/dingus)
+- [Inspiration: Gallery](https://rmarkdown.rstudio.com/gallery.html)
+- [The Definite Guide](https://bookdown.org/yihui/rmarkdown/) (bookdown site)
+
+##### Git & Github  
+- [Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
+
+
+##### Cheatsheets  
+- [RStudio IDE](https://rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)
+- [R-Markdown](https://raw.githubusercontent.com/rstudio/cheatsheets/master/rmarkdown-2.0.pdf)
+
+
+##### Other
+
+- [How to get Icons for presentations](https://www.iconsdb.com)
+
 
 ## Links that are handy to us
 
--   GitHub repo: <https://github.com/rstudio-conf-2020/what-they-forgot>
--   GitHub Pages site, served from that repo: <https://rstudio-conf-2020.github.io/what-they-forgot/>
+-   GitHub repo: <https://github.com/lisallreiber/R-Workshop>
+-   GitHub Pages site, served from that repo: <https://lisallreiber.github.io/R-Workshop/>
+-   Collection of our questions
+
+## Credits
+
+The workshop materials are modifications of the following resources:
+
+- https://github.com/rstudio-conf-2020/what-they-forgot
 
 ------------------------------------------------------------------------
 
