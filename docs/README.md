@@ -111,7 +111,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 
 -   GitHub repo: <https://github.com/lisallreiber/R-Workshop>
 -   GitHub Pages site, served from that repo: <https://lisallreiber.github.io/R-Workshop/>
--   Gather.town link: https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop
+-   Gather.town link: <https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop>
 
 ## Credits
 
