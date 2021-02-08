@@ -9,16 +9,32 @@ by Lisa Reiber
 [lisallreiber.github.io/R-Workshop/](https://lisallreiber.github.io/R-Workshop/) \<-- The One True URL that links to everything!
 
 :spiral_calendar: February 11 and 12, 2021   
-:alarm_clock: 09:00 - 17:00 \| 09:00 - 13:00
+:alarm_clock: 09:00 - 17:00 \| 09:00 - 13:00  
 :hotel: Gather Town  
-:writing_hand: [rstd.io/conf](http://rstd.io/conf)  
 
 ------------------------------------------------------------------------
 
-## Pre-work
+## Pre-workshop Prep
 
-Please do the requested Git/GitHub prep in advance! Go [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for details. If you have questions, please ask me.
-Please use your github account to set up an RStudio Cloud account as well. We will use RStudio cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.
+TL;DR (friendly version below):
+* Make sure you have a stable internet connection and a second display to work with
+* install the following things (R|RStudio|Git|RStudioCloud): Go [here](https://github.com/lisallreiber/R-Workshop/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
+* There will be (a reminder to make sure you prepare) coffee 
+
+
+11th February is coming closer, and I am excited to have you. However,
+we need you to make a few preparations so that we can start right away.
+Please make sure you have a stable internet connection and a second display to work with.
+It will make your life a lot easier if you can interact with us one one screen and work with R in another.
+Also make sure you install all the required pieces of software. We will be using RStudioCloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer (and if you are a Windows user, any edition that is not "Home", so Professional, Education or Enterprise will do). If you're
+ready, go to and follow the steps: https://github.com/lisallreiber/R-Workshop/master/00_prep.R
+If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up). Please use your Github account to set up a free [RStudio Cloud](https://rstudio.cloud/plans/free) account as well. We will use RStudio Cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.
+
+The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available [here](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html)).
+
+If you arrive early --- but please not before 8.30 am --- I can help with any technical problems that
+you have encountered.
+
 
 ## Schedule
 
@@ -35,32 +51,16 @@ Please use your github account to set up an RStudio Cloud account as well. We wi
 ### Friday
 09:00 - 10:30 [2_1: Git + GithubPages](day2_1)  
 10:30 - 11:00 Break  
-11:00 - 12:30 [2_2: Deploying it to GH Pages](day2_2)  
+11:00 - 12:30 [2_2: Putting all pieces together](day2_2)  
 12:30 - 13:00 [2_3: Wrap-up](day2_3)  
 
 ## Overview
-This is a 1.5-day hands on workshop designed for beginner and experiences R and RStudio users who want to (re)design their R lifestyle. You'll learn holistic workflows that address the most common sources of friction in data analysis. We'll work on project-oriented workflows, version control for data science (Git/GitHub!), and how to plan for collaboration, communication, and iteration (incl. RMarkdown).
+This is a 1.5-day hands on workshop designed for beginner and experienced R and RStudio users who want to learn about working reproducibly in R. We'll work on project-oriented workflows, keeping text, code and outputs together (R Markdown), making data availability visualizations (ggplot2) and setting up a website to share all kinds of information (Git/GitHub).
 
-In terms of your R skills, expect to come away with new knowledge of your R installation, how to maintain it, robust strategies for working with the file system, debugging tools, and ways to use the purrr package for repetitive tasks.
+In terms of your R skills, expect to come away with new knowledge of how to write and code with R Markdown, a better grasp of some tidyverse functions and how to share your analyses directly from Rstudio to your reproducible website.
 
 ## Mission
-
-During the workshop we will visit the different building blocks from which reproducable research reports like [this](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html) are made of. If everything goes well, everyone will succeed in producing a website with visualization ov meta infomation via their own Github account.
-
-
-## Is this course for me?
-
--   Have you been using R for a while and feel there might be better ways to organize your R life, but don't know what they are?
--   Do you want to streamline your workflow for doing analysis and automating repetitive tasks in R?
--   Are you willing to get into the weeds of your R installation, project organization, error messages, and source code?
-
-You should take this workshop if:
-
--   You've been using R for a while and you feel like writing R code is not what's holding you back the most.
--   You've realized that you have more pressing "meta" problems that no one seems to talk about.
--   You want to know how to divide your work into projects and scripts, how to expose your work to others, and how to get more connected to the R development scene.
-
-The tidyverse is not an explicit focus of the course (other than the purrr segment) and you can certainly work through the content without it. But you should expect a great deal of tidyverse exposure.
+During the workshop we will visit the different building blocks from which reproducible websites like [this](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html) are made of. If everything goes well, you will succeed in producing a website with visualization of meta information via your own Github account.
 
 ## Instructors
 
@@ -71,8 +71,7 @@ The tidyverse is not an explicit focus of the course (other than the purrr segme
 
 -   Project-oriented mentality, organization, predictability, portability
 -   Visualizing and Sharing Meta Data
--   Take control of your R installation: startup, libraries & packages
--   Why and how re: version control, esp. with R and RStudio
+-   Using R Markdown to create a reproducible analysis and websites
 -   Materials for getting unstuck and helping yourself
 -   Further materials to dig deeper into the workshop topics in the future
  
@@ -105,6 +104,8 @@ Here you can find a list of resources specifically to the topics we covered in t
 
 ##### Git & Github  
 - [Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
+- [List of Git Tutorials and Documentation](https://git-scm.com/doc/ext)
+- [Git: The Simple Guide](https://rogerdudler.github.io/git-guide/index.html)
 
 
 ##### Cheatsheets  
@@ -121,13 +122,17 @@ Here you can find a list of resources specifically to the topics we covered in t
 
 -   GitHub repo: <https://github.com/lisallreiber/R-Workshop>
 -   GitHub Pages site, served from that repo: <https://lisallreiber.github.io/R-Workshop/>
--   Collection of our questions
+-   Gather.town link: https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop
 
 ## Credits
 
 The workshop materials are modifications of the following resources:
 
 - https://github.com/rstudio-conf-2020/what-they-forgot
+- https://rstudio.com/resources/webinars/rstudio-cloud-in-the-classroom/
+- https://oliviergimenez.github.io/intro_rmarkdown_practical/#6
+
+
 
 ------------------------------------------------------------------------
 
