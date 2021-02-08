@@ -18,7 +18,7 @@ by Lisa Reiber
 
 TL;DR (friendly version below):
 * Make sure you have a stable internet connection and a second display to work with
-* install the following things (R|RStudio|Git|RStudioCloud): Go [here](https://github.com/lisallreiber/R-Workshop/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
+* install the following things (R\|RStudio\|Git\|RStudioCloud): Go [here](https://github.com/lisallreiber/R-Workshop/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
 * There will be (a reminder to make sure you prepare) coffee 
 
 
