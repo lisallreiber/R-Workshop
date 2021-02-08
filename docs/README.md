@@ -80,6 +80,7 @@ During the workshop we will visit the different building blocks from which repro
 ## Resources  
 Here you can find a list of resources specifically to the topics we cover in the workshop. 
 
+
 ##### R & RStudio  
 - [Cute Introduction to R](https://rforcats.net/) (blog post ~ 7min)
 - [WTF - What the forgot to teach you about R](https://rstats.wtf/) (bookdown site with lots of R-hacks)
