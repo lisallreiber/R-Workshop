@@ -28,25 +28,21 @@ options("tidylog.display" = list())
 source(here::here("00_packages.R"))
 ```
 
-```{r set-options, echo=FALSE, cache=FALSE}
-options(width = 110)
-```
-
 # Create Data for the Variable Overview
 
 This markdown outlines the process in which synthetic SOEP-IS data is
 
-__Procedure__
+**Procedure**
 
-- 1. Import synthetic SOEP data 
-- 2. Reformat them for visualization
-- 3. Add descriptive Information (Variable Labels)
+1.  Import synthetic SOEP data
+2.  Reformat them for visualization
+3.  Add descriptive Information (Variable Labels)
 
-__Data Structure (ID's)__
-      
-- format: the initial dataset `soepisv34` will be in **SOEP-long format** and on the **person level**, meaning that unique individuals may have multiple rows in the dataset for multiple time points (survey years). The rows in the data will NOT be uniquely identifiable by Person ID 'pid' alone, but in the combination of person ID `pid` and time `syear`.
-- the data is based on persons and not on households, meaning that there can be multiple (person) rows for one household ID `hid`.
-- the data contains information theoretically collected between 1998 and 2017 (for now).
+**Data Structure (ID's)**
+
+-   format: the initial dataset `soepisv34` will be in **SOEP-long format** and on the **person level**, meaning that unique individuals may have multiple rows in the dataset for multiple time points (survey years). The rows in the data will NOT be uniquely identifiable by Person ID 'pid' alone, but in the combination of person ID `pid` and time `syear`.
+-   the data is based on persons and not on households, meaning that there can be multiple (person) rows for one household ID `hid`.
+-   the data contains information theoretically collected between 1998 and 2017 (for now).
 
 # 1. Import Data
 
@@ -87,6 +83,7 @@ key_labels <- rio::import(here::here("data/key_labels.rds"))
 # 2. Generate tidy formats
 
 ## 2.1: make key_features column
+
 ```{r}
 id <- c("syear", "pid", "cid", "hid", "kidpnr", 
         "fpid", "mpid", "pgpartnr", "pgpartz", 
@@ -112,9 +109,10 @@ key_features <- key_labels %>%
 
 ## 2.2: reformat format (syear)
 
-now we create an additional dataset which is long in the sense that all variables are represented in the `key`column and all corresponding values in a `value` column. 
+now we create an additional dataset which is long in the sense that all variables are represented in the `key`column and all corresponding values in a `value` column.
 
 the data is uniquely identifiable by: syear, pid, key
+
 ```{r cache.lazy = FALSE}
 metaviz_long <- metaviz %>% 
    tidyr::pivot_longer(cols = c(-syear, -pid, -hid), names_to = "key", values_to = "value")
@@ -123,6 +121,7 @@ metaviz_long <- metaviz %>%
 ```
 
 now we add labels from key_features generated above
+
 ```{r}
 metaviz_long <- metaviz_long %>% 
    left_join(key_features, by = c("key" = "key_name")) %>% 
@@ -130,6 +129,7 @@ metaviz_long <- metaviz_long %>%
 ```
 
 and export the format
+
 ```{r}
 rio::export(metaviz_long, here::here("data", "metaviz_long.rds"))
 ```
@@ -137,5 +137,6 @@ rio::export(metaviz_long, here::here("data", "metaviz_long.rds"))
 # Supplement
 
 ## searches
-- how to extract var names and var labels: https://stackoverflow.com/questions/57552015/how-to-extract-column-variable-attributes-labels-from-r-to-csv-or-excel
-- how to even better extract them (labelled package): https://stackoverflow.com/questions/34817457/convenient-way-to-access-variables-label-after-importing-stata-data-with-haven
+
+-   how to extract var names and var labels: <https://stackoverflow.com/questions/57552015/how-to-extract-column-variable-attributes-labels-from-r-to-csv-or-excel>
+-   how to even better extract them (labelled package): <https://stackoverflow.com/questions/34817457/convenient-way-to-access-variables-label-after-importing-stata-data-with-haven>
