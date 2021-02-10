@@ -85,12 +85,24 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [RStudio IDE Intro Video](https://rstudio.com/products/rstudio/?wvideo=520zbd3tij#rstudio-server)
 - [Cute Introduction to R](https://rforcats.net/) (blog post ~ 7min)
 - [WTF - What the forgot to teach you about R](https://rstats.wtf/) (bookdown site with lots of R-hacks)
+- [Holy Tidyverse Manual: R4DS](https://r4ds.had.co.nz/)
+- [Collection of RStudio Conference Talks](https://rstudio.com/resources/rstudioglobal-2021/)
+
 
 ##### RMarkdown  
 - [Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 - [Syntax Explorer](https://daringfireball.net/projects/markdown/dingus)
 - [Inspiration: Gallery](https://rmarkdown.rstudio.com/gallery.html)
 - [The Definite Guide](https://bookdown.org/yihui/rmarkdown/) (bookdown site)
+- [YAML Options Overview](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
+- [Parameterized Reports](https://zsmith27.github.io/rmarkdown_crash-course/lesson-7-parameterized-reports.html)
+- [Overview of all R Markdown formats](https://rmarkdown.rstudio.com/formats.html)
+
+##### Data Viz
+- [TidyTuesday Live Coding from David Robinson](https://www.youtube.com/watch?v=WxKSauhOY4g)
+- [Data-to-viz website with code templates for all kinds of visualizations](https://www.data-to-viz.com/)
+- [Inspirational Data-Viz Blog by Cédric Scherer](https://www.cedricscherer.com/)
+
 
 ##### Git & Github  
 - [Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
@@ -105,22 +117,24 @@ Here you can find a list of resources specifically to the topics we cover in the
 
 ##### Other  
 - [How to get Icons for presentations](https://www.iconsdb.com)
+- [Help me help you. Creating reproducible examples: Talk by Jenny Brian](https://rstudio.com/resources/webinars/help-me-help-you-creating-reproducible-examples/)
+- [WORCS R Package for reproducible workflows](https://github.com/cjvanlissa/worcs)
 
 
-## Links that are handy to us
-
+## Links that are handy to us  
 -   GitHub repo: <https://github.com/lisallreiber/R-Workshop>
 -   GitHub Pages site, served from that repo: <https://lisallreiber.github.io/R-Workshop/>
 -   Gather.town link: <https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop>
 
-## Credits
-
-The workshop materials are modifications of the following resources:
+## Credits  
+Some of the workshop materials are modifications of the following resources:
 
 - [Kara Woo, Jenny Bryan, and Jim Hester's Rstudio::conf(2020) talk](https://github.com/rstudio-conf-2020/what-they-forgot)
 - [RStudio Webinar](https://rstudio.com/resources/webinars/rstudio-cloud-in-the-classroom/)
 - [Olivier Gimenez](https://oliviergimenez.github.io) [R Markdown Talk](https://oliviergimenez.github.io/intro_rmarkdown/)
 - [Ulrik Lyngs](https://ulriklyngs.com) [R Markdown Workshops](https://ulyngs.github.io/rmarkdown-workshop-2019/slides/Day1.html)
+- [Aaron Peikert's Repro Workshop](https://github.com/aaronpeikert?tab=repositories)
+
 
 
 ------------------------------------------------------------------------

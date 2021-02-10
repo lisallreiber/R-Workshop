@@ -1,0 +1,47 @@
+---
+title: "Analysis"
+author: "Lisa Reiber"
+date: "2/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+source(here::here("00_packages.R"))
+```
+
+```{r load data}
+metaviz_long <- rio::import(here::here("data-processed", "metaviz_long.rds"))
+```
+
+
+```{r calc}
+2 + 2
+```
+
+
+
+```{r plot, fig.width=2, fig.height=2}
+plot(iris$Sepal.Length)
+```
+
+
+```{r table}
+metaviz_long %>% 
+      drop_na(value) %>% 
+      janitor::tabyl(key_category) %>% 
+      adorn_pct_formatting()
+```
+
+```{r}
+metaviz_long %>% 
+      drop_na(value) %>% 
+      filter(key_category == "Demography") %>% 
+      janitor::tabyl(key_label) %>% 
+      janitor::adorn_pct_formatting() %>% 
+      knitr::kable() %>%
+      kableExtra::kable_styling()
+```
+
+
