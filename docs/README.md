@@ -82,11 +82,11 @@ Here you can find a list of resources specifically to the topics we cover in the
 
 
 ##### R & RStudio  
+- [RStudio IDE Intro Video](https://rstudio.com/products/rstudio/?wvideo=520zbd3tij#rstudio-server)
 - [Cute Introduction to R](https://rforcats.net/) (blog post ~ 7min)
 - [WTF - What the forgot to teach you about R](https://rstats.wtf/) (bookdown site with lots of R-hacks)
 
 ##### RMarkdown  
-
 - [Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 - [Syntax Explorer](https://daringfireball.net/projects/markdown/dingus)
 - [Inspiration: Gallery](https://rmarkdown.rstudio.com/gallery.html)
@@ -103,8 +103,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [R-Markdown](https://raw.githubusercontent.com/rstudio/cheatsheets/master/rmarkdown-2.0.pdf)
 
 
-##### Other
-
+##### Other  
 - [How to get Icons for presentations](https://www.iconsdb.com)
 
 
@@ -118,9 +117,10 @@ Here you can find a list of resources specifically to the topics we cover in the
 
 The workshop materials are modifications of the following resources:
 
-- https://github.com/rstudio-conf-2020/what-they-forgot
-- https://rstudio.com/resources/webinars/rstudio-cloud-in-the-classroom/
-- https://oliviergimenez.github.io/intro_rmarkdown_practical/#6
+- [Kara Woo, Jenny Bryan, and Jim Hester's Rstudio::conf(2020) talk](https://github.com/rstudio-conf-2020/what-they-forgot)
+- [RStudio Webinar](https://rstudio.com/resources/webinars/rstudio-cloud-in-the-classroom/)
+- [Olivier Gimenez](https://oliviergimenez.github.io) [R Markdown Talk](https://oliviergimenez.github.io/intro_rmarkdown/)
+- [Ulrik Lyngs](https://ulriklyngs.com) [R Markdown Workshops](https://ulyngs.github.io/rmarkdown-workshop-2019/slides/Day1.html)
 
 
 ------------------------------------------------------------------------

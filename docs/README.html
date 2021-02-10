@@ -199,13 +199,17 @@ summary {
 <p>by Lisa Reiber</p>
 <p><a href="https://lisallreiber.github.io/R-Workshop/">lisallreiber.github.io/R-Workshop/</a> &lt;– The One True URL that links to everything!</p>
 <p>:spiral_calendar: February 11 and 12, 2021<br />
-:alarm_clock: 09:00 - 17:00 | 09:00 - 13:00 :hotel: Gather Town<br />
-:writing_hand: <a href="http://rstd.io/conf">rstd.io/conf</a></p>
+:alarm_clock: 09:00 - 17:00 | 09:00 - 13:00<br />
+:hotel: Gather Town</p>
 <hr />
 </div>
-<div id="pre-work" class="section level2">
-<h2>Pre-work</h2>
-<p>Please do the requested Git/GitHub prep in advance! Go <a href="https://happygitwithr.com/workshops.html#pre-workshop-set-up">here</a> for details. If you have questions, please ask me. Please use your github account to set up an RStudio Cloud account as well. We will use RStudio cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.</p>
+<div id="pre-workshop-prep" class="section level2">
+<h2>Pre-workshop Prep</h2>
+<p>TL;DR (friendly version below): * Make sure you have a stable internet connection and a second display to work with * install the following things (R|RStudio|Git|RStudioCloud): Go <a href="https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R">here</a> for details or <a href="https://happygitwithr.com/workshops.html#pre-workshop-set-up">here</a> for help. * There will be (a reminder to make sure you prepare) coffee</p>
+<p>11th February is coming closer, and I am excited to have you. The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available <a href="https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html">here</a>).<br />
+However, we need you to make a few preparations so that we can start right away. Please make sure you have a stable internet connection and a second display to work with. It will make your life a lot easier if you can interact with us one one screen and work with R in another. Also make sure you install all the required pieces of software. We will be using RStudioCloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you’re ready, go to and follow the steps: <a href="https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R" class="uri">https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R</a> If you get stuck, this website will probably <a href="https://happygitwithr.com/workshops.html#pre-workshop-set-up">help</a>.<br />
+Please use your Github account to set up a free <a href="https://rstudio.cloud/plans/free">RStudio Cloud</a> account as well. We will use RStudio Cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.</p>
+<p>If you arrive early — but please not before 8.30 am — I can help with any technical problems that you have encountered.</p>
 </div>
 <div id="schedule" class="section level2">
 <h2>Schedule</h2>
@@ -213,43 +217,28 @@ summary {
 <h3>Thursday</h3>
 <p>09:00 - 10:30 <a href="day1_1">1_1: Introduction / RStudio Workflows</a><br />
 10:30 - 11:00 Break<br />
-11:00 - 12:30 <a href="day1_2">1_2: R-Markdown Intro</a><br />
+11:00 - 12:30 <a href="day1_2">1_2: R Markdown Intro</a><br />
 12:30 - 13:30 Lunch<br />
 13:30 - 15:00 <a href="day1_3">1_3: Meta-Viz with ggplot2</a><br />
 15:00 - 15:30 Break<br />
-15:30 - 17:00 <a href="day1_4">1_4: R-Markdown: website features</a></p>
+15:30 - 17:00 <a href="day1_4">1_4: R Markdown: website features</a></p>
 </div>
 <div id="friday" class="section level3">
 <h3>Friday</h3>
 <p>09:00 - 10:30 <a href="day2_1">2_1: Git + GithubPages</a><br />
 10:30 - 11:00 Break<br />
-11:00 - 12:30 <a href="day2_2">2_2: Deploying it to GH Pages</a><br />
+11:00 - 12:30 <a href="day2_2">2_2: Putting all pieces together</a><br />
 12:30 - 13:00 <a href="day2_3">2_3: Wrap-up</a></p>
 </div>
 </div>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-<p>This is a 1.5-day hands on workshop designed for beginner and experiences R and RStudio users who want to (re)design their R lifestyle. You’ll learn holistic workflows that address the most common sources of friction in data analysis. We’ll work on project-oriented workflows, version control for data science (Git/GitHub!), and how to plan for collaboration, communication, and iteration (incl. RMarkdown).</p>
-<p>In terms of your R skills, expect to come away with new knowledge of your R installation, how to maintain it, robust strategies for working with the file system, debugging tools, and ways to use the purrr package for repetitive tasks.</p>
+<p>This is a 1.5-day hands on workshop designed for beginner and experienced R and RStudio users who want to learn about working reproducibly in R. We’ll work on project-oriented workflows, keeping text, code and outputs together (R Markdown), making data availability visualizations (ggplot2) and setting up a website to share all kinds of information (Git/GitHub).<br />
+In terms of your R skills, expect to come away with new knowledge of how to write and code with R Markdown, a better grasp of some tidyverse functions and how to share your analyses directly from Rstudio to your reproducible website.</p>
 </div>
 <div id="mission" class="section level2">
 <h2>Mission</h2>
-<p>During the workshop we will visit the different building blocks from which reproducable research reports like <a href="https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html">this</a> are made of. If everything goes well, everyone will succeed in producing a website with visualization ov meta infomation via their own Github account.</p>
-</div>
-<div id="is-this-course-for-me" class="section level2">
-<h2>Is this course for me?</h2>
-<ul>
-<li>Have you been using R for a while and feel there might be better ways to organize your R life, but don’t know what they are?</li>
-<li>Do you want to streamline your workflow for doing analysis and automating repetitive tasks in R?</li>
-<li>Are you willing to get into the weeds of your R installation, project organization, error messages, and source code?</li>
-</ul>
-<p>You should take this workshop if:</p>
-<ul>
-<li>You’ve been using R for a while and you feel like writing R code is not what’s holding you back the most.</li>
-<li>You’ve realized that you have more pressing “meta” problems that no one seems to talk about.</li>
-<li>You want to know how to divide your work into projects and scripts, how to expose your work to others, and how to get more connected to the R development scene.</li>
-</ul>
-<p>The tidyverse is not an explicit focus of the course (other than the purrr segment) and you can certainly work through the content without it. But you should expect a great deal of tidyverse exposure.</p>
+<p>During the workshop we will visit the different building blocks from which reproducible websites like <a href="https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html">this</a> are made of. If everything goes well, you will succeed in producing a website with visualization of meta information via your own Github account.</p>
 </div>
 <div id="instructors" class="section level2">
 <h2>Instructors</h2>
@@ -262,8 +251,7 @@ summary {
 <ul>
 <li>Project-oriented mentality, organization, predictability, portability</li>
 <li>Visualizing and Sharing Meta Data</li>
-<li>Take control of your R installation: startup, libraries &amp; packages</li>
-<li>Why and how re: version control, esp. with R and RStudio</li>
+<li>Using R Markdown to create a reproducible analysis and websites</li>
 <li>Materials for getting unstuck and helping yourself</li>
 <li>Further materials to dig deeper into the workshop topics in the future</li>
 </ul>
@@ -281,7 +269,7 @@ summary {
 </div>
 <div id="resources" class="section level2">
 <h2>Resources</h2>
-<p>Here you can find a list of resources specifically to the topics we covered in the workshop.</p>
+<p>Here you can find a list of resources specifically to the topics we cover in the workshop.</p>
 <div id="r-rstudio" class="section level5">
 <h5>R &amp; RStudio</h5>
 <ul>
@@ -291,11 +279,19 @@ summary {
 </div>
 <div id="rmarkdown" class="section level5">
 <h5>RMarkdown</h5>
+<ul>
+<li><a href="https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">Reference Guide</a></li>
+<li><a href="https://daringfireball.net/projects/markdown/dingus">Syntax Explorer</a></li>
+<li><a href="https://rmarkdown.rstudio.com/gallery.html">Inspiration: Gallery</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">The Definite Guide</a> (bookdown site)</li>
+</ul>
 </div>
 <div id="git-github" class="section level5">
 <h5>Git &amp; Github</h5>
 <ul>
 <li><a href="http://happygitwithr.com/">Happy Git &amp; Github for the useR</a> (bookdown site, hilarious)</li>
+<li><a href="https://git-scm.com/doc/ext">List of Git Tutorials and Documentation</a></li>
+<li><a href="https://rogerdudler.github.io/git-guide/index.html">Git: The Simple Guide</a></li>
 </ul>
 </div>
 <div id="cheatsheets" class="section level5">
@@ -317,14 +313,17 @@ summary {
 <ul>
 <li>GitHub repo: <a href="https://github.com/lisallreiber/R-Workshop" class="uri">https://github.com/lisallreiber/R-Workshop</a></li>
 <li>GitHub Pages site, served from that repo: <a href="https://lisallreiber.github.io/R-Workshop/" class="uri">https://lisallreiber.github.io/R-Workshop/</a></li>
-<li>Collection of our questions</li>
+<li>Gather.town link: <a href="https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop" class="uri">https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop</a></li>
 </ul>
 </div>
 <div id="credits" class="section level2">
 <h2>Credits</h2>
 <p>The workshop materials are modifications of the following resources:</p>
 <ul>
-<li><a href="https://github.com/rstudio-conf-2020/what-they-forgot" class="uri">https://github.com/rstudio-conf-2020/what-they-forgot</a></li>
+<li><a href="https://github.com/rstudio-conf-2020/what-they-forgot">Kara Woo, Jenny Bryan, and Jim Hester’s Rstudio::conf(2020) talk</a></li>
+<li><a href="https://rstudio.com/resources/webinars/rstudio-cloud-in-the-classroom/">RStudio Webinar</a></li>
+<li><a href="https://oliviergimenez.github.io">Olivier Gimenez</a> <a href="https://oliviergimenez.github.io/intro_rmarkdown/">R Markdown Talk</a></li>
+<li><a href="https://ulriklyngs.com">Ulrik Lyngs</a> <a href="https://ulyngs.github.io/rmarkdown-workshop-2019/slides/Day1.html">R Markdown Workshops</a></li>
 </ul>
 <hr />
 <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IB2cksfwAAAW5QTFRF////////////////7+/v39/f1tXV09bS0tXS0tXR0dTR0dTQ0NTQ0NPPz9PPztLOztHNzdHNzdHMz8/PzdDMzNDMzNDLzM/Ly8/Ly8/Ky87Kys3Jyc3Jyc3IyMzIyMzHx8vHxsrGxsrFxcnFxcnExMnExMjDw8jDxMfDw8fCwsfCwcXAwMXAwMW/wMS/v8S+v8O+vsO+vsK9vcK9vcK8v7+/vMG8vMG7vMC8u8C7u8C6ur+6ur+5ub65ub64uL23t7y2tru1tbq0tLqztLmzs7iysrixsrexsbewsbawsLavsLWvr7Wur7SusLOvrrStrrOtr7KvrbOsrLKrr6+vq7Gqn6OenqCdn5+flpmWk5iTkZSRkZORj4+PiYyJhIaEhIWEgoWCgICAfX98fH98eXx5cHJvcHBwYGBgXV5dUFFQUFBQQ0RDQEBAPj8+NTY1MjMxMDAwKSkpKCkoICAgGxsbEBAQDg4ODQ4NAAAAlzoSDQAAAAN0Uk5TAAoO5yEBUwAAAvhJREFUeNq1lutX2kAQxWmXFDVGYy1EIjQ2VZDiu1CsRQQURYvV+qSKj6II8rANYOT+9z0JqIASo9Y5ydkP2f2d2Ts7d2N4jRcJgwEIBwO+SbdTFGw8ZzZz1n5BdLgnfLPBcCT6fW1jY3P78QEYEA76PWMu0W5lGbrNZGrrYNg+u+ga9fgVcmxtY/NJZAOCfs+IY4Bn6eN8RdlEJX9Ed1uFIfdnfzC8uBJbv5tyqqhMLKa0wQHPiEOwMInLW4Eu9xmzfdDtmQ0uLK3cSXmvBBTS6QJQ2tMC+8YcgpnOApAzSa83mZEBZIff2odGfYFQJNqc8s4VchQhhFA5XO1pgCddAxaFKyeNpBpxGSgNmwXXxMxcWE25fkkJGUIIoExESQPsFnkmC0gUuQmjBGQZq+j2BEKR5dUGLVLIvbkGkxxSrcHO92wCkIyENJL3u+2O8Zng/FJsvR5cRF0GFIqtwaKVvoTcSxrCKOOS7hPdXwLhxUYtUFC+Z6AKQgpoDRZ6joEkaYo4cMQKril/KLLcCE4TVYmqFmkNsK0rD9lIiDdXKCSrwwEhREae6Ve0WIiuPg3M0xVlW171BBe21CGjbLbSYR0c/To3H409TQquHTggREKZ8pbjEiRqqxxXtWjjRLdvLrzUAK4Vr5qwZvEsJsCrzExWF9Tk9gIm84e74BRyRN9xeyS4vkHSmg1yK4Wxt5yUIClDayn0t3SteLWq3RQvjQrN31O87e2dEiBl0tJDJmTrykImN8dtq6AOpIw8Y3OMf2s+bvptU+hJqFrc1yCfpmZDkWYX0mv0H9WWpvS2tH6w8z27e58JJVi7c2ImuNBkQvrBOOWZc0CqsyFKtU3+97OuaQBnXGe90RuTMvCHtpziuWCcmDvPm64m+t2vlmuq/YHqqwnGCcfs1l+mCcbSmgtSe8iDGQNnPEsnrq//fZrltXS4tk3oAOPvT2tPF91uMrXTDNv340JrjQ4hbsHAxeE0z1ksHD99eKFdl0dl/P//Cl+9EPcfS+yBAoqk3eUAAAAASUVORK5CYII=" /> This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
