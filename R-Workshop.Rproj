@@ -12,12 +12,5 @@ Encoding: UTF-8
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
-<<<<<<< HEAD
 BuildType: Website
-=======
-AutoAppendNewline: Yes
-
-BuildType: Website
-
 SpellingDictionary: en_GB
->>>>>>> 168a91d0aaad4c6a3ad34ce9244767a3b6184263
