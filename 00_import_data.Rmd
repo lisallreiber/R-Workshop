@@ -30,7 +30,7 @@ source(here::here("00_packages.R"))
 
 # Create Data for the Variable Overview
 
-This markdown outlines the process in which synthetic SOEP-IS data is
+This markdown outlines the process in which synthetic SOEP-IS data is created.
 
 **Procedure**
 
@@ -49,7 +49,8 @@ This markdown outlines the process in which synthetic SOEP-IS data is
 ```{r eval=FALSE, include=FALSE}
 # this chunks contains the code for how the synthetic data was created. All values that contain information from people were recoded to 1 unless they were missing. Only the information about the syear is retained.
 
-soepisv34 <- rio::import(here::here("data/soepisv34.rds"))
+# choose your own soepis34 version by running the next line of code
+soepisv34 <- rio::import(here::here(file.choose()))
 
 soep_syn <- soepisv34 %>% 
       select(-cid) %>% 
@@ -57,14 +58,18 @@ soep_syn <- soepisv34 %>%
       codebook::detect_missing(learn_from_labels = T,
                                negative_values_are_missing = T,
                                only_labelled = F) %>% 
+      # recode all non-missing values to 1
       mutate_at(vars(-syear), ~ifelse(is.na(.x), NA, 1)) %>% 
+      # generate fake pid and hid's
       mutate(pid = seq(1, nrow(soepisv34)),
              hid = stringi::stri_rand_strings(nrow(soepisv34), 5)) %>% 
       select(syear, pid, everything()) 
 
+# make a smaller sample dataset
 metaviz <- soep_syn %>% 
       sample_n((nrow(soep_syn) / 10))
 
+# generate label dictionary
 key_labels <- labelled::var_label(soepisv34) %>% 
       as_tibble(rownames = c("key_name", "key_label")) %>% 
       gather(key = key_name, value = key_label)
@@ -76,8 +81,8 @@ rio::export(key_labels, here::here("data", "key_labels.rds"))
 ```
 
 ```{r import data}
-metaviz <- rio::import(here::here("data/metaviz.rds"))
-key_labels <- rio::import(here::here("data/key_labels.rds"))
+metaviz <- rio::import(here::here("data-processed/metaviz.rds"))
+key_labels <- rio::import(here::here("data-processed/key_labels.rds"))
 ```
 
 # 2. Generate tidy formats
@@ -102,6 +107,7 @@ key_features <- key_labels %>%
                                       key_name %in% other ~ "Other",
                                       TRUE ~ "Psych. Measure"
                                       ),
+             # order levels of the generated factor
              key_category = ordered(key_category, levels = c("ID's", "Survey", "Demography",
                                                              "Psych. Measure", "Other") )
       )
@@ -109,7 +115,11 @@ key_features <- key_labels %>%
 
 ## 2.2: reformat format (syear)
 
-now we create an additional dataset which is long in the sense that all variables are represented in the `key`column and all corresponding values in a `value` column.
+now we create an additional dataset which is long in the sense that all variables (spices) are represented in the `key` (spice) column and all corresponding values in a `value` (correct) column.
+
+```{r}
+knitr::include_graphics("https://rladiessydney.org/img/pivot_longer_data.png")
+```
 
 the data is uniquely identifiable by: syear, pid, key
 
@@ -131,7 +141,7 @@ metaviz_long <- metaviz_long %>%
 and export the format
 
 ```{r}
-rio::export(metaviz_long, here::here("data", "metaviz_long.rds"))
+rio::export(metaviz_long, here::here("data-processed", "metaviz_long.rds"))
 ```
 
 # Supplement

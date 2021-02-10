@@ -4,7 +4,7 @@ pagetitle: My-Project Title
 
 # My-Project Name
 
-## Outline {.active}
+## Outline 
 
 1.  **Data Processing:** First we [read the synthetic SOEP-IS data into R](00_import_data.html), and create the datasets needed for further analysis.
 2.  **Data Description:** Here we can look at some [descriptive plots](p1_describe_plots.html) of the iGENE Sample.
@@ -15,7 +15,7 @@ pagetitle: My-Project Title
 
 ### Authors
 
-of the code: Lisa Reiber (to be updated)
+of the code: (add your Name and the names of the contributors)
 
 ### Acknowledgements {.active}
 
