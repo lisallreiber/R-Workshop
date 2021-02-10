@@ -8,9 +8,13 @@
 - Build the file in html, pdf and docx format. 🎉
 - Try to recreate the content (not the styling) of the SOEP-Metaviz websites index.html  
 
-<center>  
-![](https://github.com/lisallreiber/R-Workshop/blob/master/assets/img/Index-SOEP-Metaviz_Screenshot.png){width=50%}  
-</center>  
+
+<center>
+
+![](../assets/img/Index-SOEP-Metaviz_Screenshot.png){width=50%}
+
+</center>
+
 
 **Bonus**:  
 
