@@ -11,7 +11,7 @@
 
 <center>
 
-![](../assets/img/Index-SOEP-Metaviz_Screenshot.png){width=50%}
+<img src='../assets/img/Index-SOEP-Metaviz_Screenshot.png' alt="Screenshot of a website" width = "50%">
 
 </center>
 
