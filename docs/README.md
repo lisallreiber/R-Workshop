@@ -99,6 +99,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [YAML Options Overview](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
 - [Parameterized Reports](https://zsmith27.github.io/rmarkdown_crash-course/lesson-7-parameterized-reports.html)
 - [Overview of all R Markdown formats](https://rmarkdown.rstudio.com/formats.html)
+- [Rendering .R scripts with the rmarkdown package](https://rmarkdown.rstudio.com/articles_report_from_r_script.html)
 
 ##### Data Viz
 - [TidyTuesday Live Coding from David Robinson](https://www.youtube.com/watch?v=WxKSauhOY4g)
@@ -110,6 +111,9 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
 - [List of Git Tutorials and Documentation](https://git-scm.com/doc/ext)
 - [Git: The Simple Guide](https://rogerdudler.github.io/git-guide/index.html)
+- [What is a fork?](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [How to create a new repository?  ](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
+- [How to create a GithubPages Website?](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 
 
 ##### Cheatsheets  
