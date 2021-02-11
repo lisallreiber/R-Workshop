@@ -5,6 +5,7 @@ library("pacman")
 
 pacman::p_load(
                codebook, # package to generate automated codebooks, works well for labelled data and SOEP data
+               esquisse, # for visual data exploring
                here, # package to specify paths within R-projects
                forcats, # package for working with factors
                janitor, # package for data cleaning
