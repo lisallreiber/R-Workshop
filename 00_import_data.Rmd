@@ -135,7 +135,9 @@ now we add labels from key_features generated above
 ```{r}
 metaviz_long <- metaviz_long %>% 
    left_join(key_features, by = c("key" = "key_name")) %>% 
-   mutate(key_name_label = paste0(key, ": ", key_label))
+   mutate(key_name_label = paste0(key, ": ", key_label)) %>% 
+   #make it smaller
+   sample_n((nrow(metaviz_long) / 200))
 ```
 
 and export the format
