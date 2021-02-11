@@ -87,9 +87,10 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [WTF - What the forgot to teach you about R](https://rstats.wtf/) (bookdown site with lots of R-hacks)
 - [Holy Tidyverse Manual: R4DS](https://r4ds.had.co.nz/)
 - [Collection of RStudio Conference Talks](https://rstudio.com/resources/rstudioglobal-2021/)
+- [Short Tutorials on different topics (RStudio Education)](https://rstudio.cloud/learn/primers)
 
 
-##### RMarkdown  
+##### R Markdown  
 - [Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 - [Syntax Explorer](https://daringfireball.net/projects/markdown/dingus)
 - [Inspiration: Gallery](https://rmarkdown.rstudio.com/gallery.html)
