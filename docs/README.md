@@ -94,6 +94,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [Syntax Explorer](https://daringfireball.net/projects/markdown/dingus)
 - [Inspiration: Gallery](https://rmarkdown.rstudio.com/gallery.html)
 - [The Definite Guide](https://bookdown.org/yihui/rmarkdown/) (bookdown site)
+- [Chunk Options](https://yihui.name/knitr/options/)
 - [YAML Options Overview](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
 - [Parameterized Reports](https://zsmith27.github.io/rmarkdown_crash-course/lesson-7-parameterized-reports.html)
 - [Overview of all R Markdown formats](https://rmarkdown.rstudio.com/formats.html)
