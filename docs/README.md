@@ -119,7 +119,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 
 ##### Git & Github  
 - [3-min GitHub Intro Video](https://www.youtube.com/watch?v=w3jLJU7DT5E)
-- [Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
+- [Best Git Help Book: Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
 - [List of Git Tutorials and Documentation](https://git-scm.com/doc/ext)
 - [Git: The Simple Guide](https://rogerdudler.github.io/git-guide/index.html)
 - [What is a fork?](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
@@ -127,7 +127,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [How to create a GithubPages Website?](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 - [How to connect RStudio Cloud with Git](https://maurolepore.github.io/cloudgithub/)
 - [How to connect RStudio with Git](https://happygitwithr.com/new-github-first.html)
-
+- [How to introduce yourself to Git (from R)](https://happygitwithr.com/hello-git.html)
 
 
 ##### Cheatsheets  
