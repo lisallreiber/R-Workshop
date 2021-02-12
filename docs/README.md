@@ -14,13 +14,15 @@ by Lisa Reiber
 
 ------------------------------------------------------------------------
 
-## Pre-workshop Prep
+## Pre-workshop Prep 
 
-TL;DR (friendly version below):
+TL;DR (friendly version below): 
+
 * Make sure you have a stable internet connection and a second display to work with
 * install the following things (R\|RStudio\|Git\|RStudioCloud): Go [here](https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
 * There will be (a reminder to make sure you prepare) coffee 
 
+\n
 
 11th February is coming closer, and I am excited to have you. The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available [here](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html)).  
 However, we need you to make a few preparations so that we can start right away. Please make sure you have a stable internet connection and a second display to work with. It will make your life a lot easier if you can interact with us one one screen and work with R in another. Also make sure you install all the required pieces of software. We will be using RStudioCloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you're ready, go to and follow the steps: <https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R> If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up).  
@@ -88,6 +90,10 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [Holy Tidyverse Manual: R4DS](https://r4ds.had.co.nz/)
 - [Collection of RStudio Conference Talks](https://rstudio.com/resources/rstudioglobal-2021/)
 - [Short Tutorials on different topics (RStudio Education)](https://rstudio.cloud/learn/primers)
+- [Why Should I use RProjects? ...Blog post on famous WILL SET YOUR COMPUTER ON FIRE talk by Jenny Brian](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
+- [Tidyswirl: interactive teaching tool for learning R/tidyverse from within R itself](https://github.com/matt-dray/tidyswirl)
+- [RStudio Webinars](https://rstudio.com/resources/webinars/)
+
 
 
 ##### R Markdown  
@@ -96,24 +102,32 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [Inspiration: Gallery](https://rmarkdown.rstudio.com/gallery.html)
 - [The Definite Guide](https://bookdown.org/yihui/rmarkdown/) (bookdown site)
 - [Chunk Options](https://yihui.name/knitr/options/)
+- [R Markdown Crash Course](https://zsmith27.github.io/rmarkdown_crash-course/index.html)
 - [YAML Options Overview](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
+- [Short YAML Tutorial](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
 - [Parameterized Reports](https://zsmith27.github.io/rmarkdown_crash-course/lesson-7-parameterized-reports.html)
 - [Overview of all R Markdown formats](https://rmarkdown.rstudio.com/formats.html)
 - [Rendering .R scripts with the rmarkdown package](https://rmarkdown.rstudio.com/articles_report_from_r_script.html)
+
 
 ##### Data Viz
 - [TidyTuesday Live Coding from David Robinson](https://www.youtube.com/watch?v=WxKSauhOY4g)
 - [Data-to-viz website with code templates for all kinds of visualizations](https://www.data-to-viz.com/)
 - [Inspirational Data-Viz Blog by Cédric Scherer](https://www.cedricscherer.com/)
+- [ggstatsplot: Intro Tutorial by Indrajeet Patil - ggplot2 Based Plots with Statistical Details ](https://indrajeetpatil.github.io/ggstatsplot_slides/slides/ggstatsplot_presentation.html#1)
 
 
 ##### Git & Github  
+- [3-min GitHub Intro Video](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 - [Happy Git & Github for the useR](http://happygitwithr.com/) (bookdown site, hilarious)
 - [List of Git Tutorials and Documentation](https://git-scm.com/doc/ext)
 - [Git: The Simple Guide](https://rogerdudler.github.io/git-guide/index.html)
 - [What is a fork?](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [How to create a new repository?  ](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
 - [How to create a GithubPages Website?](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
+- [How to connect RStudio Cloud with Git](https://maurolepore.github.io/cloudgithub/)
+- [How to connect RStudio with Git](https://happygitwithr.com/new-github-first.html)
+
 
 
 ##### Cheatsheets  
@@ -125,6 +139,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 - [How to get Icons for presentations](https://www.iconsdb.com)
 - [Help me help you. Creating reproducible examples: Talk by Jenny Brian](https://rstudio.com/resources/webinars/help-me-help-you-creating-reproducible-examples/)
 - [WORCS R Package for reproducible workflows](https://github.com/cjvanlissa/worcs)
+- [Using WORCS to create reproducible open science projects](http://developmentaldatascience.org/post/29-08-20_worcs/)
 
 
 ## Links that are handy to us  
