@@ -2,6 +2,8 @@
 
 [![Gather](https://img.shields.io/badge/gather.town-join-008900?style=flat&labelColor=black)](https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop)
 
+[![Slides](https://img.shields.io/badge/workshop_slides-get-008900?style=flat&labelColor=black)](https://github.com/lisallreiber/R-Workshop/blob/master/assets/slides/00_R-Workshop.pdf)
+
 ### University of Basel
 
 by Lisa Reiber
@@ -22,7 +24,6 @@ TL;DR (friendly version below):
 * install the following things (R\|RStudio\|Git\|RStudioCloud): Go [here](https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
 * There will be (a reminder to make sure you prepare) coffee 
 
-\n
 
 11th February is coming closer, and I am excited to have you. The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available [here](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html)).  
 However, we need you to make a few preparations so that we can start right away. Please make sure you have a stable internet connection and a second display to work with. It will make your life a lot easier if you can interact with us one one screen and work with R in another. Also make sure you install all the required pieces of software. We will be using RStudioCloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you're ready, go to and follow the steps: <https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R> If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up).  
@@ -81,6 +82,7 @@ During the workshop we will visit the different building blocks from which repro
 
 ## Resources  
 Here you can find a list of resources specifically to the topics we cover in the workshop. 
+
 
 
 ##### R & RStudio  
