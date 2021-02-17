@@ -37,19 +37,19 @@ you have encountered.
 
 ### Thursday
 
-09:00 - 10:30 [1_1: Introduction / RStudio Workflows](day1_1)  
+09:00 - 10:30 [1_1: Introduction / RStudio Workflows](https://lisallreiber.github.io/R-Workshop/day1_1)  
 10:30 - 11:00 Break  
-11:00 - 12:30 [1_2: R Markdown Intro](day1_2)  
+11:00 - 12:30 [1_2: R Markdown Intro](https://lisallreiber.github.io/R-Workshop/day1_2)  
 12:30 - 13:30 Lunch  
-13:30 - 15:00 [1_3: Meta-Viz with ggplot2](day1_3)  
+13:30 - 15:00 [1_3: Meta-Viz with ggplot2](https://lisallreiber.github.io/R-Workshop/day1_3)  
 15:00 - 15:30 Break  
-15:30 - 17:00 [1_4: R Markdown: website features](day1_4)
+15:30 - 17:00 [1_4: R Markdown: website features](https://lisallreiber.github.io/R-Workshop/day1_4)
 
 ### Friday
-09:00 - 10:30 [2_1: Git + GithubPages](day2_1)  
+09:00 - 10:30 [2_1: Git + GithubPages](https://lisallreiber.github.io/R-Workshop/day2_1)  
 10:30 - 11:00 Break  
-11:00 - 12:30 [2_2: Putting all pieces together](day2_2)  
-12:30 - 13:00 [2_3: Wrap-up](day2_3)  
+11:00 - 12:30 [2_2: Putting all pieces together](https://lisallreiber.github.io/R-Workshop/day2_2)  
+12:30 - 13:00 [2_3: Wrap-up](Nhttps://lisallreiber.github.io/R-Workshop/day2_2)  
 
 ## Overview  
 This is a 1.5-day hands on workshop designed for beginner and experienced R and RStudio users who want to learn about working reproducibly in R. We'll work on project-oriented workflows, keeping text, code and outputs together (R Markdown), making data availability visualizations (ggplot2) and setting up a website to share all kinds of information (Git/GitHub).  
