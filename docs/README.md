@@ -2,7 +2,7 @@
 
 [![Gather](https://img.shields.io/badge/gather.town-join-008900?style=flat&labelColor=black)](https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop)
 
-[![Slides](https://img.shields.io/badge/workshop_slides-get-008900?style=flat&labelColor=black)](https://github.com/lisallreiber/R-Workshop/blob/master/assets/slides/00_R-Workshop.pdf)
+[![Slides](https://img.shields.io/badge/workshop_slides-get-008900?style=flat&labelColor=black)](https://github.com/lisallreiber/R-Workshop/raw/master/assets/slides/00_R-Workshop.pdf)
 
 ### University of Basel
 

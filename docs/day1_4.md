@@ -6,7 +6,7 @@ here you will find slides and materials of the workshop
 
 You can right-click and save, which will download the PDF or follow the Link and view the slides on GitHub.
 
-<https://github.com/lisallreiber/R-Workshop/blob/master/assets/slides/04_RMarkdown-Websites.pdf>
+<https://github.com/lisallreiber/R-Workshop/raw/master/assets/slides/04_RMarkdown-Websites.pdf>
 
 
 **Instructions**
