@@ -12,7 +12,7 @@ You can right-click and save, which will download the PDF or follow the Link and
 
 **Instructions**
 
-Here you can find the [02 R Markdown-Basics Hands-on instructions](https://github.com/lisallreiber/R-Workshop/blob/master/02_RMarkdown-Basics/02_Instructions.html)  
+Here you can find the [02 R Markdown-Basics Hands-on instructions](https://github.com/lisallreiber/R-Workshop/blob/master/02_RMarkdown-Basics/02_Instructions.md)  
 
 
 
